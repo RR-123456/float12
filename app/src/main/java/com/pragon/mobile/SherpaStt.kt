@@ -47,8 +47,8 @@ object SherpaStt {
 
     /** Small English streaming zipformer (about 20M parameters). Any streaming transducer archive (.tar.bz2 or .zip) works. */
     const val DEFAULT_MODEL_URL =
-        "https://github.com/k2fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-streaming-zipformer-en-20M-2023-02-17.tar.bz2"
-    const val VAD_URL = "https://github.com/k2fsa/sherpa-onnx/releases/download/asr-models/silero_vad.onnx"
+        "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-streaming-zipformer-en-20M-2023-02-17.tar.bz2"
+    const val VAD_URL = "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/silero_vad.onnx"
 
     private const val RATE = 16000
     private const val CHUNK = 800                         // 50 ms of audio per read: low latency, still cheap
